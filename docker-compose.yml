@@ -53,7 +53,7 @@ services:
       - "./addons:/addons"
       - "./storage:/storage"
       - "/etc/localtime:/etc/localtime:ro"
-      - "./backend:/backend"
+      # - "./backend:/backend"
 
 volumes:
   ayondb: {}
